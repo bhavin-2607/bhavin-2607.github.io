@@ -1,0 +1,55 @@
+.font-about
+{
+	
+}
+.ph
+{
+	color: rgb(134,194,50);
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+}
+.card
+{
+	position: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	word-wrap: break-word;
+}
+.card-body
+{
+	position: center;
+	-ms-flex:1 1 auto;
+	flex:1 1 auto;
+	padding:1.25rem;
+}
+.card-text
+{
+	font-family: 'Quicksand', sans-serif;
+	color: rgb(240,240,240);
+	font-size: 26px;
+	margin-bottom:0;
+	text-align: center;
+	text-align: justify;
+}
+.new
+{
+	border-top: 2px dashed rgb(134,194,50);
+	width: 100%;
+}
+.athsovin
+{
+	float: left;
+}
+.card-text-img
+{
+	font-family: 'Quicksand', sans-serif;
+	color: rgb(240,240,240);
+	font-size: 26px;
+	margin-bottom:0;
+	padding-left: 265px;
+	text-align: justify;
+}
