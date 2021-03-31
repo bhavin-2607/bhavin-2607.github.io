@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Service Registration Form</title>
+	<!--Title bar icon-->
+    <link rel="icon" href="../img/reg-form.png">
+
+    <!--Web Font link-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap">
+
+    <!--External CSS-->
+    <link href="../css/form-reg.css" rel="stylesheet" type="text/css">
+	<link href="../css/home.css" rel="stylesheet" type="text/css">
+	
+    <!--Scripts-->
+    <script src="../js/form_validation_service.js"></script>
+	
+</head>
+<body class="background">
+	
+	<div class="container-query">
+			<div class="wrap-contact3">
+				<form class="contact3-form" name="qform" onSubmit="return validateForm()">
+					<span class="contact3-form-title">
+						Service Registration Form
+					</span>
+
+					<div class="wrap-input3">
+						<input class="input3" type="text" name="fname" placeholder="Name">
+						<span class="focus-input3"></span>
+						<span class="error"><p id="fname_error"></p></span>
+					</div>
+						
+
+					<div class="wrap-input3">
+						<input class="input3" type="email" name="email" placeholder="Email">
+						<span class="focus-input3"></span>
+						<span class="error"><p id="email_error"></p></span>
+					</div>
+					
+					<div class="wrap-input3">
+						<input class="input3" type="tel" name="contact" placeholder="Contact number" pattern="[0-9]{10}">
+						<span class="focus-input3"></span>
+						<span class="error"><p id="contact_error"></p></span>
+					</div>
+					
+					<div class="wrap-input3">
+						<input class="input3" type="text" name="req" placeholder="Service name">
+						<span class="focus-input3"></span>
+						<span class="error"><p id="req_error"></p></span>
+					</div>
+					
+					<div class="wrap-input3">
+						<input class="input3" type="text" name="ser" placeholder="Service Type">
+						<span class="focus-input3"></span>
+						<span class="error"><p id="ser_error"></p></span>
+					</div>
+								
+					<div class="container-contact3-form-btn" align="center">
+						<input class="contact3-form-btn" type="submit" value="SUBMIT" name="submit">
+					</div>
+				</form>
+			</div>
+		</div>
+	<!--Footer Area Start-->
+	<div class="font-footer li-footer">MADE WITH <object data="../img/trust.png"></object> BY BHAVIN AMESARA</div>
+	<!--Footer Area End-->
+</body>
+</html>
